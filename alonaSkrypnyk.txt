@@ -1,5 +1,5 @@
 Date: 
-Wed Apr 16 17:39:26 UTC 2025
+Wed Apr 16 17:59:35 UTC 2025
 
 Hostname: 
 AlonaSkrypnykCATC
@@ -10,5 +10,430 @@ x86_64
 Uname -a: 
 Linux AlonaSkrypnykCATC 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
- 17:39:26 up 24 days,  2:07,  1 user,  load average: 0.00, 0.00, 0.00
+Uptime: 
+ 17:59:35 up 24 days,  2:27,  1 user,  load average: 0.00, 0.00, 0.00
+
+Whoami: 
+alonaskrypnyk
+
+Who: 
+alonaskrypnyk pts/0        2025-04-16 08:43 (37.228.214.55)
+
+W: 
+ 17:59:35 up 24 days,  2:27,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+alonaskr          37.228.214.55    08:43   27:24m  0.00s   ?    sshd: alonaskrypnyk [priv]
+
+Top 1 time: 
+top - 17:59:35 up 24 days,  2:27,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 131 total,   1 running, 129 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 95.0 id,  5.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    841.4 total,    138.6 free,    454.4 used,    400.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    387.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   22428  13568   9472 S   0.0   1.6   0:48.77 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.25 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 S   0.0   0.0   0:07.41 ksoftir+
+     16 root      20   0       0      0      0 I   0.0   0.0   0:34.83 rcu_sch+
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:06.96 migrati+
+     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     22 root      rt   0       0      0      0 S   0.0   0.0   0:04.58 migrati+
+     23 root      20   0       0      0      0 S   0.0   0.0   0:14.13 ksoftir+
+     25 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kauditd
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.59 khungta+
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     35 root      20   0       0      0      0 S   0.0   0.0   0:54.43 kcompac+
+     36 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     37 root      39  19       0      0      0 S   0.0   0.0   0:14.72 khugepa+
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     41 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-a+
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     48 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     51 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     53 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
+     54 root       0 -20       0      0      0 I   0.0   0.0   0:05.73 kworker+
+     55 root      20   0       0      0      0 S   0.0   0.0   0:02.82 kswapd0
+     56 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
+     57 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     59 root      20   0       0      0      0 S   0.0   0.0   4:14.01 hwrng
+     60 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
+     61 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     63 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     64 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     65 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     66 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     67 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     71 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     72 root       0 -20       0      0      0 I   0.0   0.0   0:06.03 kworker+
+     73 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     80 root      20   0       0      0      0 S   0.0   0.0   0:42.31 hv_ball+
+     81 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     83 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     97 root      20   0       0      0      0 S   0.0   0.0   0:07.56 jbd2/sd+
+     98 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    159 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    160 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    305 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    394 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
+    395 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1015 message+  20   0   10016   4992   4096 S   0.0   0.6   0:05.85 dbus-da+
+   1021 root      20   0   32408  20224   9728 S   0.0   2.3   0:00.10 network+
+   1030 root      20   0   18200   8448   7424 S   0.0   1.0   0:02.74 systemd+
+   1082 root      20   0    7224   2816   2560 S   0.0   0.3   0:02.87 cron
+   1101 root      20   0  109996  22144  12800 S   0.0   2.6   0:00.08 unatten+
+   1232 root      20   0    6148   2176   2048 S   0.0   0.3   0:00.00 agetty
+   1259 root      20   0    6104   2048   1920 S   0.0   0.2   0:00.14 agetty
+   1318 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1320 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1321 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1322 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1323 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1324 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1325 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1326 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1327 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1336 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1337 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1338 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1339 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1357 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   7252 root      20   0   12020   7040   6016 S   0.0   0.8   0:39.54 sshd
+   7682 _chrony   20   0   11204   3492   2816 S   0.0   0.4   9:50.16 chronyd
+   7684 _chrony   20   0   11072   1204    640 S   0.0   0.1   0:00.00 chronyd
+  78847 root      20   0    4084   2944   1920 S   0.0   0.3   9:15.72 hv_kvp_+
+ 104733 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+ 104753 systemd+  20   0   21580  12800  10624 S   0.0   1.5   0:01.28 systemd+
+ 104756 root      rt   0  223580  27136   8704 S   0.0   3.1   1:10.60 multipa+
+ 104762 root      19  -1  115820  75760  74736 S   0.0   8.8   0:33.45 systemd+
+ 104766 root      20   0  579772  75876  29668 S   0.0   8.8   0:39.02 fwupd
+ 104774 root      20   0   24912   5504   3840 S   0.0   0.6   0:00.88 systemd+
+ 104782 root      20   0  469088  10880   8704 S   0.0   1.3   0:00.48 udisksd
+ 104792 syslog    20   0  222508   5760   4096 S   0.0   0.7   0:05.71 rsyslogd
+ 104828 systemd+  20   0   19012   8448   7296 S   0.0   1.0   0:01.00 systemd+
+ 104829 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+ 141396 polkitd   20   0  308164   7680   6912 S   0.0   0.9   0:11.05 polkitd
+ 141399 root      20   0   43948  35584  12160 S   0.0   4.1   0:00.34 python3
+ 141411 root      20   0  392024   8704   6784 S   0.0   1.0   0:00.05 ModemMa+
+ 141465 root      20   0  411948  37988  12544 S   0.0   4.4   5:46.28 python3
+ 250490 root      20   0   14740   7944   6400 S   0.0   0.9   0:00.00 sshd
+ 250494 alonask+  20   0   20344  11392   9344 S   0.0   1.3   0:00.07 systemd
+ 250495 alonask+  20   0   21152   3520   1792 S   0.0   0.4   0:00.00 (sd-pam)
+ 250604 alonask+  20   0   15224   6948   4992 S   0.0   0.8   0:01.20 sshd
+ 250607 alonask+  20   0   10248   6528   3712 S   0.0   0.8   0:00.20 bash
+ 253325 root      20   0       0      0      0 I   0.0   0.0   0:00.65 kworker+
+ 253764 alonask+  20   0    6132   2176   2048 S   0.0   0.3   0:00.21 script
+ 253765 alonask+  20   0    9064   5248   3712 S   0.0   0.6   0:00.01 bash
+ 253817 alonask+  20   0    6132   2176   2048 S   0.0   0.3   0:00.21 script
+ 253818 alonask+  20   0    9176   5504   3712 S   0.0   0.6   0:00.11 bash
+ 254205 alonask+  20   0   25840  13824   7936 T   0.0   1.6   0:00.09 vim
+ 254310 root      20   0       0      0      0 I   0.0   0.0   0:00.18 kworker+
+ 254319 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
+ 254356 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+ 254370 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+ 254389 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+ 254490 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+ 254582 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+ 254584 alonask+  20   0    9176   3980   2176 S   0.0   0.5   0:00.00 bash
+ 254595 alonask+  20   0   12360   5504   3456 R   0.0   0.6   0:00.00 top
+
+History: 
+    1  cd mkdir Music
+    2  mkdir Music
+    3  cd Music/
+    4  mkdir relax
+    5  mkdir classic
+    6  mkdir lounge
+    7  cd ..
+    8  tree
+    9  sudo apt install tree
+   10  tree
+   11  mkdir relax\meditation relax\oudoor classic\piano classic\modern lounge\car lounge\dance
+   12  ls
+   13  cd classic
+   14  cd music
+   15  cd Music/
+   16  ls
+   17  classic
+   18  cd classic/
+   19  ls
+   20  cd ..
+   21  cd lounge/
+   22  ls
+   23  cd ../..
+   24  ls
+   25  delete Music/
+   26  del Music/
+   27  ls 
+   28  rmdir Music/
+   29  rmdir /s Music/
+   30  rmdir \s Music
+   31  rmdir /s Music
+   32  rm -r Music/
+   33  ls
+   34  rm classic
+   35  rm -r classic
+   36  ls
+   37  rmdir classic
+   38  ls
+   39  rm -r classic
+   40  rmdir /s classic
+   41  ls
+   42  rm -r classic
+   43  pwd
+   44  ls
+   45  rm -r classicmodern/
+   46  rm -r classicpiano/
+   47  rm -r relaxmeditation/
+   48  rm -r relaxoudoor/
+   49  rm -r loungecar/
+   50  rm -r loungedance/
+   51  ls
+   52  mkdir Music
+   53  ls
+   54  mkdir classic lounge relax
+   55  ls
+   56  rm -r lounge
+   57  rm -r classic/
+   58  rm -r relax/
+   59  cd Music/
+   60  mkdir classic lounge relax
+   61  ls
+   62  mkdir classic/modern classic/piano
+   63  ls
+   64  cd classic/
+   65  ls
+   66  cd ..
+   67  mkdir lounge/car lounge/dance relax/outdoor relax/meditation
+   68  ls
+   69  cd ..
+   70  pwd
+   71  ls
+   72  tree
+   73  sudo apt install tree
+   74  sudo apt update
+   75  tree
+   76  sudo apt install tree
+   77  tree
+   78  git clone git@github.com:Alonasa/AlonaSkrypnykCATCProject.git
+   79  ls
+   80  git clone https://PAT@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github.com/Alonasa/AlonaSkrypnykCATCProject.git
+   81  git clone https://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@github.com/Alonasa/AlonaSkrypnykCATCProject.git
+   82  ls
+   83  cd AlonaSkrypnykCATCProject/
+   84  ls
+   85  echo hello world
+   86  passwd
+   87  date
+   88  hostname
+   89  arch
+   90  username -a
+   91  username a
+   92  username
+   93  uname -a
+   94  uname
+   95  dmesg | more
+   96  sudo dmesg | more
+   97  echo hello world
+   98  passwd
+   99  date
+  100  hostname
+  101  arch
+  102  uname -a
+  103  sudo dmesg | more
+  104  echo hello world
+  105  passwd
+  106  date
+  107  hostname
+  108  arch
+  109  uname -a
+  110  sudo dmesg | more
+  111  uptime
+  112  whoami
+  113  who
+  114  last
+  115  w
+  116  top
+  117  echo $SHELL
+  118  echo {con,pre}{sent,fer}{s,ed}
+  119  man ls
+  120  man who
+  121  clear
+  122  cal 2000
+  123  clear
+  124  cal2000
+  125  cal 2000
+  126  clear
+  127  sudo cal2000
+  128  sudo cal 2000
+  129  cal 2000
+  130  cal2000
+  131  clear
+  132  cal 2000
+  133  sudo apt install ncal
+  134  cal 2000
+  135  cal 9 1752
+  136  yes please
+  137  man yes please
+  138  clear
+  139  cal 2000
+  140  cal 9 1752
+  141  yes please
+  142  cal 2000
+  143  clear
+  144  cal 2000
+  145  cal 9 1752
+  146  yes please
+  147  cal 2000
+  148  cal 9 1752
+  149  time sleep 5
+  150  history
+  151  man history
+  152  ls
+  153  AlonaSkrypnykCATCProject/
+  154  mkdir screenshots
+  155  cd screenshots
+  156  mkdir Q2.1
+  157  git add 
+  158  git add .
+  159  cd ../..
+  160  ls
+  161  cd alonaskrypnyk/
+  162  cd AlonaSkrypnykCATCProject/
+  163  git add .
+  164  git commit -m "created screenshots folder"
+  165  ls
+  166  cd ..
+  167  ls
+  168  del screenshots/
+  169  delete screenshots/
+  170  rmdir screenshots/
+  171  rm -r screenshots/
+  172  ls
+  173  cd AlonaSkrypnykCATCProject/
+  174  mkdir screenshots
+  175  ls
+  176  cd screenshots/
+  177  mkdir Q2.1
+  178  gid add .
+  179  cd ..
+  180  git add .
+  181  git commit -m "created screenshots folder"
+  182  ls
+  183  git log
+  184  git push origin main
+  185  git status
+  186  git diff cached
+  187  git add .
+  188  git commit -m "created screenshots folder"
+  189  git status
+  190  ls
+  191  cd screenshots/
+  192  git add .
+  193  git commit -m "created screenshots folder"
+  194  cd ..
+  195  git diff
+  196  ls
+  197  git remote -v
+  198  ks
+  199  ls
+  200  rm script
+  201  vim script
+  202  ls
+  203  rm typescript 
+  204  ls
+  205  vim script.sh
+  206  ls
+  207  script.sh
+  208  /script.sh
+  209  chmod +x script.sh
+  210  ./script.sh
+  211  script.sh
+  212  /script.sh
+  213  ls
+  214  chmod +x script.sh
+  215  ls
+  216  script.sh
+  217  ls
+  218  rm alonaSkrypnyk.txt 
+  219  ls
+  220  chmod +x script.sh
+  221  ls
+  222  script.sh
+  223  ls
+  224  ./script.sh
+  225  ls
+  226  cat alonaSkrypnyk.txt 
+  227  vim script.sh
+  228  ls
+  229  chmod +x script.sh
+  230  ./script.sh
+  231  cat alonaSkrypnyk.txt 
+  232  git add .
+  233  git commit -m "created and check execution of  script for date and hostname commands"
+  234  git push origin main
+  235  vim script.sh
+  236  chmod +x script.sh
+  237  ./script.sh
+  238  cat alonaSkrypnyk.txt 
+  239  rm alonaSkrypnyk.txt 
+  240  vim script.sh
+  241  ./script.sh
+  242  chmod +x script.sh
+  243  ./script.sh
+  244* 
+  245  cat alonaSkrypnyk.txt 
+  246  vim script.sh
+  247  chmod +x script.sh
+  248  ./script.sh
+  249  vim script.sh
+  250  chmod +x script.sh
+  251  ./script.sh
+  252  cat alonaSkrypnyk.txt 
+  253  vim script.sh
+  254  chmod +x script.sh
+  255  ./script.sh
+  256  git add .
+  257  git commit -m "created script for commands arch, uname, uptime"
+  258  git push origin
+  259  ls
+  260  rm tee
+  261  ls
+  262  rm .script.sh.swp 
+  263  git add .
+  264  git commit -m "removed unneded files"
+  265  vim script.sh
+  266  chmod +x script.sh
+  267  ./script.sh
+  268  cat alonaSkrypnyk.txt 
+  269  vim script.sh
+  270  chmod +x script.sh
+  271  ./script.sh
 

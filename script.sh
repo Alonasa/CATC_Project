@@ -6,7 +6,8 @@
 # and executing marked commands
 
 # Execution script result file
-echo "Start new file generation"
+echo "Start new file generation..."
+
 OUTPUT_FILE="alonaSkrypnyk.txt"
 
 # Clear file if it's already exists
@@ -37,9 +38,39 @@ echo "Uname -a: " >> "$OUTPUT_FILE"
 uname -a >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
 
-#Script for command "Uptime"
-echo "Uptime: " >> tee -a "$OUTPUT_FILE"
+#Script for command "uptime"
+echo "Uptime: " >> "$OUTPUT_FILE"
 sudo uptime >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
+
+
+#Script for command "whoami"
+echo "Whoami: " >> "$OUTPUT_FILE"
+whoami >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+#Script for command "who"
+echo "Who: " >> "$OUTPUT_FILE"
+who >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+
+#Script for command "w"
+echo "W: " >> "$OUTPUT_FILE"
+w >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+
+#Script for command "top"
+echo "Top 1 time: " >> "$OUTPUT_FILE"
+top -b -n 1 >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+
+#Script for command "history"
+echo "History: " >> "$OUTPUT_FILE"
+history >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
 echo ""
 echo "File is ready! For open file print cat $OUTPUT_FILE in terminal"
